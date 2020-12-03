@@ -558,4 +558,27 @@ input .check {
     grid-gap: 0;
     grid-template-columns: repeat(1, auto);
     grid-template-rows: repeat(3, auto);
-    grid-template-areas: "contenedor__header" "contenedor__contenido" "contenedor__sidebar" "contenedor__footer"; } }
+    grid-template-areas: "contenedor__header" "contenedor__contenido" "contenedor__sidebar" "contenedor__footer"; }
+  .contenedor__header {
+    grid-area: contenedor__header;
+    display: grid;
+    background-color: #f8f9fa;
+    z-index: 2;
+    width: 100%; }
+  .contenedor__contenido {
+    background-color: asd;
+    color: #010101;
+    grid-area: contenedor__contenido;
+    align-self: flex-start;
+    display: grid; }
+  .contenedor__sidebar {
+    background-color: #edebec;
+    color: #010101;
+    grid-area: contenedor__sidebar;
+    justify-self: stretch;
+    display: grid;
+    width: 360px; }
+  #img-turnos1 {
+    grid-area: contenedor__sidebar;
+    align-self: flex-start;
+    justify-self: stretch; } }
