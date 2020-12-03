@@ -465,7 +465,7 @@ b {
 	
 
 	
-	justify-self: center;
+	
 	align-self: flex-start;
 	width: 75%;
 	
@@ -474,7 +474,7 @@ b {
 	
 	
 	
-.h1Turnos {
+h1 {
 
 	font-size: 38px;
 	
@@ -550,7 +550,7 @@ li {
 
 	width: 75%;
 
-	justify-self: center;
+	
 	align-self: flex-end;
 	
 	grid-area: contenedor__contenido;
@@ -627,7 +627,7 @@ margin-left: 35px;
 
 }
 
-.sidebar__imagenTurno img  {
+#img-turnos1 img  {
 
 	
 
@@ -653,8 +653,7 @@ align-self: flex-start;
 
 
 
-
-.sidebar__bloqueMapaOk {
+#img-turnos2 iframe{
 
 	
 	
@@ -1255,27 +1254,6 @@ font-size: 16px;
 
 
 
-@media screen and (min-width: 481px) and (max-width: 825px) {
-
-	.contenedor {
-
-
-display: grid;
-	grid-gap: 0;
-	grid-template-columns: repeat(2, auto);
-	grid-template-rows: repeat(3, auto);
-
-	grid-template-areas: "contenedor__header contenedor__header"
-						 "contenedor__contenido contenedor__contenido"
-						 "contenedor__sidebar contenedor__sidebar"
-						 "contenedor__footer contenedor__footer"
-
-	}
- 
-
-
-
-}
 
 
 
