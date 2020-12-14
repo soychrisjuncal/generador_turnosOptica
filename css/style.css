@@ -464,21 +464,24 @@ grid-area: sidebar;
   justify-content: flex-end; }
 
 /*CONTACTO*/
-.sidebar__imagenesContacto .ayudaCon1 {
+.ayudaCon1 {
   width: 100%;
   display: inline-grid;
   grid-area: contenedor__sidebar; }
 
-.sidebar__imagenesContacto .ayudaCon2 {
+.ayudaCon2 {
   width: 100%;
   display: inline-grid;
   grid-area: contenedor__sidebar; }
 
 .contenido__bloqueContacto1 {
-  width: 400px;
-  display: inline-grid;
+  width: 100%;
+  display: grid;
   grid-area: contenedor__contenido;
-  align-self: flex-start; }
+  align-self: flex-start;
+  justify-self: center;
+  margin-top: 0;
+  margin-bottom: 600px; }
 
 .contenido__bloqueContacto1 h1 {
   font-size: 40px; }
@@ -489,11 +492,11 @@ grid-area: sidebar;
   line-height: 1.5; }
 
 .contenido__formContacto {
-  margin-top: 200px;
   width: 400px;
   display: inline-grid;
   grid-area: contenedor__contenido;
-  align-self: flex-end; }
+  align-self: flex-end;
+  margin-bottom: 50px; }
 
 .contenido__formContacto h2 {
   font-size: 28px;
@@ -561,6 +564,16 @@ input .check {
     grid-template-columns: repeat(1, auto);
     grid-template-rows: repeat(3, auto);
     grid-template-areas: "contenedor__header" "contenedor__contenido" "contenedor__sidebar" "contenedor__footer"; }
+  /*FOOTER RESPONSIVE*/
+  .contenedor__footer {
+    background: #fff;
+    color: #010101;
+    grid-area: contenedor__footer;
+    padding: 30px 0px 10px 0px;
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    text-align: center; }
   /*INDEX*/
   .contenido__bloqueHome {
     margin: 0;
@@ -734,8 +747,9 @@ input .check {
     grid-area: contenedor__contenido;
     align-self: flex-start;
     justify-self: center;
-    text-align: center;
-    margin-top: 150px; }
+    text-align: flex-start;
+    margin-top: 150px;
+    margin-bottom: 200px; }
   .contenido__bloqueContacto1 h1 {
     font-size: 40px;
     text-align: center; }
@@ -745,12 +759,12 @@ input .check {
     line-height: 1.5;
     width: 100%; }
   .contenido__formContacto {
-    margin-top: 100px;
+    margin-top: 500px;
     width: 100%;
     display: inline-grid;
     grid-area: contenedor__contenido;
     align-self: flex-end;
-    justify-self: center; }
+    justify-self: flex-start; }
   .contenido__formContacto h2 {
     font-size: 28px;
     padding-bottom: 30px;

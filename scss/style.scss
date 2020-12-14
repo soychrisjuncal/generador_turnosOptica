@@ -1057,7 +1057,7 @@ justify-content: flex-end;
 
 
 
-.sidebar__imagenesContacto .ayudaCon1 {
+.ayudaCon1 {
 
 	
 	width: 100%;
@@ -1070,7 +1070,7 @@ grid-area: contenedor__sidebar;
 }
 
 
-.sidebar__imagenesContacto .ayudaCon2 {
+.ayudaCon2 {
 
 	width: 100%;
 	display: inline-grid;
@@ -1084,12 +1084,15 @@ grid-area: contenedor__sidebar;
 .contenido__bloqueContacto1 {
 
 
+	width: 100%;
 	
-	width: 400px;
-	
-	display: inline-grid;
+	display: grid;
 	grid-area: contenedor__contenido;
 	align-self: flex-start;
+	justify-self: center;
+	
+	margin-top: 0;
+	margin-bottom: 600px;
 
 
 
@@ -1121,7 +1124,7 @@ grid-area: contenedor__sidebar;
 .contenido__formContacto {
 
 
-margin-top: 200px;
+
 	
 	
 	width: 400px;
@@ -1129,6 +1132,7 @@ margin-top: 200px;
 
 	grid-area: contenedor__contenido;
 	align-self: flex-end;
+	margin-bottom: 50px;
 	
 
 
@@ -1286,6 +1290,28 @@ font-size: 16px;
 						 "contenedor__footer"
 
 	}
+
+
+	/*FOOTER RESPONSIVE*/
+
+
+.contenedor__footer {
+
+	background: #fff;
+	color: #010101;
+	grid-area: contenedor__footer;
+	padding: 30px 0px 10px 0px;
+
+	display: grid;
+	justify-self: center;
+	align-self: center;
+	text-align: center;
+
+
+}
+
+
+
 
 
 /*INDEX*/
@@ -1796,8 +1822,9 @@ grid-area: contenedor__sidebar;
 	grid-area: contenedor__contenido;
 	align-self: flex-start;
 	justify-self: center;
-	text-align: center;
+	text-align: flex-start;
 	margin-top: 150px;
+	margin-bottom: 200px;
 
 
 
@@ -1831,7 +1858,7 @@ grid-area: contenedor__sidebar;
 .contenido__formContacto {
 
 
-margin-top: 100px;
+margin-top: 500px;
 	
 	
 	width: 100%;
@@ -1839,7 +1866,7 @@ margin-top: 100px;
 
 	grid-area: contenedor__contenido;
 	align-self: flex-end;
-	justify-self: center;
+	justify-self: flex-start;
 	
 
 
