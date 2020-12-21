@@ -304,7 +304,8 @@
 
 #img-turnos1 img {
   grid-area: contenedor__sidebar;
-  align-self: flex-start; }
+  align-self: flex-start;
+  width: 100%; }
 
 #img-turnos2 {
   width: 100%;
