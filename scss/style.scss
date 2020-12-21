@@ -36,6 +36,8 @@ $imagenes: (turnos1, turnos2, saludvisual1, saludvisual2, novedades1, novedades2
 
 
 
+
+
 	
 
 
@@ -133,6 +135,7 @@ body {
 	
 	
 	align-items: right;
+	color: #192d50;
 	width: 100%;
 
 	position: fixed;
@@ -159,9 +162,17 @@ body {
 	
 	font-size: 15px;
 
-	
 
 }
+	
+
+
+
+	.navbar-nav a {
+
+	color: #192d50;
+}
+
 
 
 		.header__logo {
@@ -176,11 +187,15 @@ body {
 	.contenedor__header nav a {
 
 margin: 0px 20px 0px 20px;
+color: #192d50;
 
 
 
 
 }
+
+
+
 
 
 .contenedor__contenido {
@@ -400,7 +415,7 @@ $redes: (facebook, instagram);
 	margin: 0px 0px 30px 50px;
 	padding: 0px 0px 30px 0;
 	justify-self: center;
-	align-self: flex-start;
+	align-self: center;
 	
  	width: 75%;
  	grid-area: contenedor__contenido;
@@ -465,12 +480,14 @@ b {
 	
 
 	
-	
+	margin-top: 150px;
 	align-self: flex-start;
 	justify-self: center;
-	width: 75%;
+	width: 80%;
+	margin-left: 20px;
 	
 	grid-area: contenedor__contenido;
+
 
 	
 	
@@ -491,6 +508,18 @@ h1 {
 .olTurnos {
 
 	margin-top: 20px;
+
+		text-align: justify;
+	
+	
+	font-style: italic;
+	
+	
+
+
+	font-size: 22px;
+line-height: 1.4;
+font-weight: lighter;
 
 
 
@@ -557,7 +586,7 @@ li {
 	
 	grid-area: contenedor__contenido;
 
-	margin-top: 350px;
+	margin-top: 100px;
 
 
 .formTurnos {
@@ -638,6 +667,8 @@ margin-left: 35px;
 
 grid-area: contenedor__sidebar;
 align-self: flex-start;
+
+
 	
 	
 
@@ -784,12 +815,12 @@ justify-self: center;
 	justify-self: center;
 	align-self: flex-start;
 	grid-area: contenedor__contenido;
-	margin-bottom: 400px;
-	
+	margin-bottom: 200px;
+	margin-top: 150px;
 
 h1{
 
-	font-size: 45px;
+	font-size: 40px;
 	text-align: left;
 
 
@@ -804,6 +835,7 @@ p {
 font-size: 22px;
 line-height: 1.4;
 font-weight: lighter;
+width: 400px;
 
 	
 
@@ -974,8 +1006,9 @@ grid-area: contenedor__sidebar;
 	
 
 	text-align: justify;
-	font-size: 19px;
-	line-height: 1.5;
+	font-size: 22px;
+line-height: 1.4;
+font-weight: lighter;
 	
 
 
@@ -1017,11 +1050,13 @@ grid-area: contenedor__sidebar;
 	
 
 	text-align: justify;
-	font-size: 19px;
-	line-height: 1.5;
+
 	margin-top: 50px;
 	margin-left: 25px;
 	width: 100%;
+		font-size: 22px;
+line-height: 1.4;
+font-weight: lighter;
 	
 
 
@@ -1029,16 +1064,36 @@ grid-area: contenedor__sidebar;
 }
 
 
-.contenido__dudasAyuda p a {
+.contenido__dudasAyuda p  {
 
 
 	text-align: justify;
-	font-size: 18px;
+	
 	
 	font-style: italic;
 	
 	
 justify-content: flex-end;
+
+	font-size: 22px;
+line-height: 1.4;
+font-weight: lighter;
+	
+	
+	
+	
+	
+
+
+
+
+}
+
+
+.contenido__dudasAyuda a {
+
+
+
 	
 	
 	
@@ -1091,8 +1146,8 @@ grid-area: contenedor__sidebar;
 	align-self: flex-start;
 	justify-self: center;
 	
-	margin-top: 0;
-	margin-bottom: 600px;
+	margin-top: 150px;
+	margin-bottom: 150px;
 
 
 
@@ -1266,11 +1321,11 @@ font-size: 16px;
 
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 767px) {
 
 	* {
 
-		max-width: 480px;
+		max-width: 767px;
 
 		margin: 0;
 		padding: 0;
@@ -1306,6 +1361,8 @@ font-size: 16px;
 	justify-self: center;
 	align-self: center;
 	text-align: center;
+	max-width: 767px;
+	width: 100%;
 
 
 }
@@ -1324,13 +1381,15 @@ font-size: 16px;
 	
 	margin: 0;
 	margin-top: 200px;
-	margin-left: 30px;
+	margin-left: 0px;
+	margin-bottom: 50px;
 	padding: 0;
 	justify-self: center;
 	align-self: flex-start;
+	text-align: center;
 
 	
- 	width: 75%;
+ 	width: 100%;
  	grid-area: contenedor__contenido;
 
 
@@ -1364,7 +1423,7 @@ b {
 	.contenido__bloqueTurnos {
 	
 
-	
+	width: 100%;
 	
 	align-self: flex-start;
 	justify-self: center;
@@ -1373,6 +1432,7 @@ b {
 	grid-area: contenedor__contenido;
 
 	margin-top: 200px;
+	margin-left:0px;
 
 	
 	
@@ -1394,6 +1454,8 @@ h1 {
 .olTurnos {
 
 	margin-top: 20px;
+	text-align: center;
+	justify-self: center;
 
 
 
@@ -1402,10 +1464,10 @@ li {
 
 	font-size: 18px;
 	font-style: lighter;
-	justify-content: center;
-	width: 75%;
+	justify-self: center;
+	width: 100%;
 	text-align: center;
-	margin-left: 30px;
+	margin-left: 10px;
 
 	margin-bottom: 10px;
 	
@@ -1440,7 +1502,7 @@ margin: 0;
 
 	
 
-	width: 75%;
+	width: 100%;
 
 	
 	align-self: flex-end;
@@ -1448,7 +1510,7 @@ margin: 0;
 	
 	grid-area: contenedor__contenido;
 
-	margin-top: 800px;
+	margin-top: 150px;
 
 	.titulo {
 
@@ -1526,7 +1588,7 @@ input {
 	
 
 
-visibility: hidden;
+
 
 grid-area: contenedor__sidebar;
 align-self: flex-end;
@@ -1661,7 +1723,7 @@ justify-self: center;
 .contenido__bloqueNovedades1 {
 
 
-	width: 80%;
+	width: 100%;
 	
 	
 	text-align: justify;
@@ -1670,12 +1732,14 @@ justify-self: center;
 	align-self: flex-start;
 	grid-area: contenedor__contenido;
 	margin-top: 200px;
+	margin-bottom: 150px;
 	
 
 h1{
 
-	font-size: 45px;
-	text-align: left;
+	font-size: 33px;
+	width: 100%;
+	text-align: center;
 
 
 
@@ -1684,7 +1748,7 @@ h1{
 
 p {
 
-	
+	width: 100%;
 
 font-size: 22px;
 line-height: 1.4;
@@ -1704,7 +1768,7 @@ font-weight: lighter;
 .contenido__bloqueNovedades1 .masInfo {
 
 	font-size: 18px;
-	width: 80%;
+	width: 100%;
 
 	font-style: italic;
 
@@ -1725,7 +1789,7 @@ font-weight: lighter;
 
 
 		
-	width: 80%;
+	width: 100%;
 	
 	
 	
@@ -1735,7 +1799,7 @@ font-weight: lighter;
 	align-self: flex-end;
 	
 	grid-area: contenedor__contenido;
-	margin-top: 500px;
+	margin-top: 0px;
 	
 
 	
@@ -1747,7 +1811,7 @@ font-weight: lighter;
 
 .contenido__bloqueNovedades2 h2{
 
-	margin-top: 200px;
+	margin-top: 0px;
 	text-align: justify-all;
 	font-size: 30px;
 
@@ -1772,6 +1836,7 @@ margin-top: 40px;
 #img-novedades1 {
 
 	width: 100%;
+	margin: 0;
 }
 
 
@@ -1824,7 +1889,7 @@ grid-area: contenedor__sidebar;
 	justify-self: center;
 	text-align: flex-start;
 	margin-top: 150px;
-	margin-bottom: 200px;
+	margin-bottom: 0px;
 
 
 
@@ -1858,7 +1923,7 @@ grid-area: contenedor__sidebar;
 .contenido__formContacto {
 
 
-margin-top: 500px;
+margin-top: 100px;
 	
 	
 	width: 100%;
@@ -1867,6 +1932,7 @@ margin-top: 500px;
 	grid-area: contenedor__contenido;
 	align-self: flex-end;
 	justify-self: flex-start;
+	margin-bottom: 100px;
 	
 
 
