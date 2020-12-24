@@ -90,7 +90,7 @@
       left: 51%;
       right: 51%;
       bottom: 0;
-      background: #2098D1;
+      background: black;
       height: 4px;
       -webkit-transition-property: left, right;
       transition-property: left, right;
@@ -308,26 +308,31 @@
       margin-left: 50px;
       margin-bottom: 10px; }
 
-.botonDatos {
-  color: #010101;
-  background-color: white;
-  font-size: 16px;
-  font-weight: lighter;
-  font-style: italic;
-  border-radius: 30px;
-  padding: 10px;
-  text-align: center;
-  width: 30%;
-  display: inline-grid;
-  margin-left: 300px;
-  margin-top: 50px; }
+#btn-datos {
+  color: #192d50;
+  background-color: #f8f9fa;
+  margin-right: 30px;
+  border-radius: 20px;
+  border: none; }
+  #btn-datos .hvr-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow; }
+  #btn-datos .hvr-shadow:hover, #btn-datos .hvr-shadow:focus, #btn-datos .hvr-shadow:active {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5); }
 
 .contenido__padreFlexForm {
-  width: 75%;
+  width: 100%;
   align-self: flex-end;
   justify-self: center;
   grid-area: contenedor__contenido;
-  margin-top: 100px; }
+  margin-top: 200px; }
   .contenido__padreFlexForm .formTurnos {
     font-size: 16px;
     margin-bottom: 20px;
@@ -341,17 +346,23 @@
   width: 100%;
   margin-left: 35px; }
 
-.botonEnviar {
-  color: #010101;
-  background-color: white;
-  font-size: 15px;
-  font-weight: lighter;
-  border: none;
-  border-radius: 30px;
-  padding: 10px;
-  margin-bottom: 20px;
-  display: inline-grid;
-  margin-left: 300px; }
+#btn-enviar {
+  color: #192d50;
+  background-color: #f8f9fa;
+  border-radius: 20px;
+  border: none; }
+  #btn-enviar .hvr-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow; }
+  #btn-enviar .hvr-shadow:hover, #btn-enviar .hvr-shadow:focus, #btn-enviar .hvr-shadow:active {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5); }
 
 .sidebar__imagenesTurnos #img-turnos1 {
   width: 100%;
@@ -385,10 +396,23 @@
     margin-top: 30px;
     font-weight: lighter; }
 
-.botonIr {
-  text-align: right;
-  justify-self: flex-end;
-  align-self: center; }
+#btn-ir {
+  color: #192d50;
+  background-color: #f8f9fa;
+  border-radius: 20px;
+  border: none; }
+  #btn-ir .hvr-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow; }
+  #btn-ir .hvr-shadow:hover, #btn-ir .hvr-shadow:focus, #btn-ir .hvr-shadow:active {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5); }
 
 .sidebar__imagenesSalud {
   display: grid;
@@ -439,7 +463,8 @@
   justify-self: center;
   align-self: flex-end;
   grid-area: contenedor__contenido;
-  margin-bottom: 200px; }
+  margin-bottom: 0px;
+  margin-top: 250px; }
 
 .contenido__bloqueNovedades2 h2 {
   margin-top: 200px;
@@ -540,7 +565,7 @@
   align-self: flex-start;
   justify-self: center;
   margin-top: 150px;
-  margin-bottom: 150px; }
+  margin-bottom: 0px; }
 
 .contenido__bloqueContacto1 h1 {
   font-size: 40px; }
@@ -551,11 +576,12 @@
   line-height: 1.5; }
 
 .contenido__formContacto {
-  width: 400px;
+  width: 100%;
   display: inline-grid;
   grid-area: contenedor__contenido;
   align-self: flex-end;
-  margin-bottom: 50px; }
+  margin-bottom: 0px;
+  margin-top: 200px; }
 
 .contenido__formContacto h2 {
   font-size: 28px;
@@ -567,7 +593,7 @@
   line-height: 1.6; }
 
 .contenido__formContacto .contactoForm input {
-  width: 80%;
+  width: 100%;
   display: inline; }
 
 label {
@@ -577,40 +603,53 @@ input .check {
   display: inline; }
 
 .contenido__formContacto .contactoForm select {
-  width: 80%;
+  width: 100%;
   font-size: 16px; }
 
 .contenido__formContacto .contactoFormText {
   font-size: 16px; }
 
 .contenido__formContacto .contactoFormText textarea {
-  width: 80%;
+  width: 100%;
   font-size: 16px; }
 
-.botonSubmitContacto {
-  color: #010101;
-  background-color: white;
-  font-size: 16px;
+#btn-contacto {
+  color: #192d50;
+  background-color: #f8f9fa;
+  border-radius: 20px;
   border: none;
-  border-radius: 30px;
-  width: 30%;
-  justify-self: end;
-  justify-content: end;
-  align-items: flex-end;
-  padding: 5px;
-  display: inline-grid;
-  margin-left: 200px; }
+  margin-bottom: 10px; }
+  #btn-contacto .hvr-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow; }
+  #btn-contacto .hvr-shadow:hover, #btn-contacto .hvr-shadow:focus, #btn-contacto .hvr-shadow:active {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5); }
 
-.botonResetContacto {
-  color: #010101;
-  background-color: white;
-  font-size: 16px;
+#btn-reset {
+  color: #192d50;
+  background-color: #f8f9fa;
+  border-radius: 20px;
   border: none;
-  border-radius: 30px;
-  width: 40%;
-  padding: 5px;
-  margin-top: 20px;
-  margin-left: 160px; }
+  margin-bottom: 50px; }
+  #btn-reset .hvr-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow; }
+  #btn-reset .hvr-shadow:hover, #btn-reset .hvr-shadow:focus, #btn-reset .hvr-shadow:active {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5); }
 
 @media only screen and (max-width: 767px) {
   * {

@@ -188,7 +188,7 @@ body {
   left: 51%;
   right: 51%;
   bottom: 0;
-  background: #2098D1;
+  background: black;
   height: 4px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
@@ -626,30 +626,41 @@ li {
 
 
 
-.botonDatos {
 
 
-	color: #010101;
-	background-color: white;
-	font-size: 16px;
-	font-weight: lighter;
-	font-style: italic;
-	border-radius: 30px;
-	padding: 10px;
-	
-	text-align: center;
-	width: 30%;
-	display: inline-grid;
-	margin-left: 300px;
-	margin-top: 50px;
+#btn-datos {
 
 
-	
 
-	
+	color: #192d50;
+	background-color: #f8f9fa;
+	margin-right: 30px;
+	border-radius: 20px;
+	border: none;
 
+	.hvr-shadow {
+
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+
+
+
+.hvr-shadow:hover, .hvr-shadow:focus, .hvr-shadow:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
 
 }
+
+
+
 
 
 
@@ -657,7 +668,7 @@ li {
 
 	
 
-	width: 75%;
+	width: 100%;
 
 	
 	align-self: flex-end;
@@ -665,7 +676,7 @@ li {
 	
 	grid-area: contenedor__contenido;
 
-	margin-top: 100px;
+	margin-top: 200px;
 
 
 .formTurnos {
@@ -719,24 +730,33 @@ margin-left: 35px;
 
 
 
-.botonEnviar {
-
-	color: #010101;
-	background-color: white;
-	font-size: 15px;
-	font-weight: lighter;
-	border: none;
-	border-radius: 30px;
-	padding: 10px;
-	margin-bottom: 20px;
-	display: inline-grid;
-	margin-left: 300px;
-
+#btn-enviar {
+color: #192d50;
+	background-color: #f8f9fa;
 	
+	border-radius: 20px;
+	border: none;
 
+	.hvr-shadow {
 
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
 }
 
+
+
+.hvr-shadow:hover, .hvr-shadow:focus, .hvr-shadow:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+}
 
 
 
@@ -845,15 +865,35 @@ h1 {
 
 
 
-.botonIr {
+#btn-ir {
 
+	color: #192d50;
+	background-color: #f8f9fa;
 	
-	text-align: right;
-	justify-self: flex-end;
-	align-self: center;
+	border-radius: 20px;
+	border: none;
 
+	.hvr-shadow {
+
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+
+
+
+.hvr-shadow:hover, .hvr-shadow:focus, .hvr-shadow:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
 
 }
+
 
 
 .sidebar__imagenesSalud {
@@ -973,7 +1013,8 @@ width: 400px;
 	align-self: flex-end;
 	
 	grid-area: contenedor__contenido;
-	margin-bottom: 200px;
+	margin-bottom: 0px;
+	margin-top: 250px;
 
 	
 
@@ -1242,7 +1283,7 @@ grid-area: contenedor__sidebar;
 	justify-self: center;
 	
 	margin-top: 150px;
-	margin-bottom: 150px;
+	margin-bottom: 0px;
 
 
 
@@ -1277,12 +1318,13 @@ grid-area: contenedor__sidebar;
 
 	
 	
-	width: 400px;
+	width: 100%;
 	display: inline-grid;
 
 	grid-area: contenedor__contenido;
 	align-self: flex-end;
-	margin-bottom: 50px;
+	margin-bottom: 0px;
+	margin-top: 200px;
 	
 
 
@@ -1313,7 +1355,7 @@ line-height: 1.6;
 
 .contenido__formContacto .contactoForm  input {
 	
-width: 80%;
+width: 100%;
 display: inline;
 
 }
@@ -1340,7 +1382,7 @@ display: inline;
 
 .contenido__formContacto .contactoForm  select {
 	
-width: 80%;
+width: 100%;
 
 font-size: 16px;
 
@@ -1359,7 +1401,7 @@ font-size: 16px;
 
 .contenido__formContacto .contactoFormText  textarea {
 	
-width: 80%;
+width: 100%;
 
 
 font-size: 16px;
@@ -1368,42 +1410,67 @@ font-size: 16px;
 
 
 
-.botonSubmitContacto {
+#btn-contacto {
 
-	color: #010101;
-	background-color: white;
-	font-size: 16px;
-	border: none;
-	border-radius: 30px;
-	width: 30%;
-	justify-self: end;
-	justify-content: end;
-	align-items: flex-end;
-	padding: 5px;
-	display: inline-grid;
-	margin-left: 200px;
-
-
-
+	color: #192d50;
+	background-color: #f8f9fa;
 	
+	border-radius: 20px;
+	border: none;
+	margin-bottom: 10px;
+	
+
+	.hvr-shadow {
+
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+
+
+
+.hvr-shadow:hover, .hvr-shadow:focus, .hvr-shadow:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
 
 }
 
 
-.botonResetContacto {
 
-	color: #010101;
-	background-color: white;
-	font-size: 16px;
-	border: none;
-	border-radius: 30px;
-		width: 40%;
-		padding: 5px;
 
-		margin-top: 20px;
-		margin-left: 160px;
+#btn-reset {
 
+	color: #192d50;
+	background-color: #f8f9fa;
 	
+	border-radius: 20px;
+	border: none;
+	margin-bottom: 50px;
+
+	.hvr-shadow {
+
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+
+
+
+.hvr-shadow:hover, .hvr-shadow:focus, .hvr-shadow:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
 
 }
 
