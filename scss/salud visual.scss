@@ -1,0 +1,108 @@
+
+.contenido__bloqueSalud {
+
+
+	
+	width: 420px;
+	margin-top: 140px;
+	
+	
+	grid-area: contenedor__contenido;
+	
+	
+	justify-self: center;
+	align-self: center;
+	display: inline-grid;
+
+h1 {
+	font-size: 40px;
+	
+	
+
+	}
+
+
+ p {
+
+	font-size: 22px;
+	
+	
+	line-height: 1.4;
+	text-align: justify;
+	margin-top: 30px;
+	font-weight: lighter;
+
+
+}
+
+}
+
+
+
+#btn-ir {
+
+	color: #192d50;
+	background-color: #f8f9fa;
+	
+	border-radius: 20px;
+	border: none;
+
+	.hvr-shadow {
+
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+
+
+
+.hvr-shadow:hover, .hvr-shadow:focus, .hvr-shadow:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+}
+
+
+
+.sidebar__imagenesSalud {
+
+	display: grid;
+	grid-area: contenedor__sidebar;
+	grid-gap: 20px;
+
+
+
+.imagenesSalud__img1 {
+
+	
+width: 100%;
+text-align: right;
+
+
+
+	
+
+
+}
+
+.imagenesSalud__img2 {
+
+		display: inline-grid;
+width: 100%;
+
+justify-self: center;
+	align-self: center;
+	
+	
+	
+
+
+}
+
+}

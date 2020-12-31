@@ -1,0 +1,228 @@
+.ayudaCon1 {
+
+	
+	width: 100%;
+	display: inline-grid;
+grid-area: contenedor__sidebar;
+	
+	
+
+
+}
+
+
+.ayudaCon2 {
+
+	width: 100%;
+	display: inline-grid;
+	grid-area: contenedor__sidebar;
+
+
+
+}
+
+
+.contenido__bloqueContacto1 {
+
+
+	width: 100%;
+	
+	display: grid;
+	grid-area: contenedor__contenido;
+	align-self: flex-start;
+	justify-self: center;
+	
+	margin-top: 150px;
+	margin-bottom: 0px;
+
+
+
+
+}
+
+.contenido__bloqueContacto1 h1 {
+
+	font-size: 40px;
+
+
+
+}
+
+.contenido__bloqueContacto1 p {
+
+	
+
+	text-align: justify;
+	font-size: 19px;
+	line-height: 1.5;
+	
+
+
+
+}
+
+
+.contenido__formContacto {
+
+
+
+	
+	
+	width: 100%;
+	display: inline-grid;
+
+	grid-area: contenedor__contenido;
+	align-self: flex-end;
+	margin-bottom: 0px;
+	margin-top: 200px;
+	
+
+
+
+
+
+
+}
+
+
+
+.contenido__formContacto h2{
+
+	
+font-size: 28px;
+padding-bottom: 30px;
+
+}
+
+.contenido__formContacto .contactoForm {
+
+font-size: 16px;
+margin-bottom: 20px;
+
+line-height: 1.6;
+
+}
+
+.contenido__formContacto .contactoForm  input {
+	
+width: 100%;
+display: inline;
+
+}
+
+label{
+
+	display: inline;
+
+
+}
+
+
+input .check {
+	
+
+display: inline;
+
+
+
+
+
+
+}
+
+.contenido__formContacto .contactoForm  select {
+	
+width: 100%;
+
+font-size: 16px;
+
+}
+
+
+.contenido__formContacto .contactoFormText {
+	
+
+
+font-size: 16px;
+
+}
+
+
+
+.contenido__formContacto .contactoFormText  textarea {
+	
+width: 100%;
+
+
+font-size: 16px;
+
+}
+
+
+
+#btn-contacto {
+
+	color: #192d50;
+	background-color: #f8f9fa;
+	
+	border-radius: 20px;
+	border: none;
+	margin-bottom: 10px;
+	
+
+	.hvr-shadow {
+
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+
+
+
+.hvr-shadow:hover, .hvr-shadow:focus, .hvr-shadow:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+}
+
+
+
+
+#btn-reset {
+
+	color: #192d50;
+	background-color: #f8f9fa;
+	
+	border-radius: 20px;
+	border: none;
+	margin-bottom: 50px;
+
+	.hvr-shadow {
+
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+
+
+
+.hvr-shadow:hover, .hvr-shadow:focus, .hvr-shadow:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+}
+
+
+
