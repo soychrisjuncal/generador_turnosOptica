@@ -66,10 +66,15 @@ b {
 .sidebar__imagenes {
 
 	grid-area: contenedor__sidebar;
-	width: 100%;
+	max-width: 100%;
+	max-height: 100%;
+
 	justify-self: center;
 	align-self: center;
-	text-align: center;
+	margin: 0;
+	display: grid;
+	
+	
 	animation: aparecer 2s;
 
 }
@@ -83,4 +88,14 @@ b {
    }
 }
 
+
+.slide {
+
+	
+	max-width: 100%;
+	max-height: 100%;
+	height: 20%;
+	margin: 0;
+	
+}
 	
